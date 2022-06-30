@@ -53,12 +53,15 @@ Our model did a good job in performing the task. But, we can still see some bad 
 ### Plotting losses
 
 ![](https://i.imgur.com/ga6x45b.png)
+
 We can see the loss of real and fake images converging towards each other, which implies that the generator is getting better at producing real images.
 
 ![](https://i.imgur.com/drlOUVK.png)
+
 The generator loss is quickly decreasing with the number of epochs and will further reduce if trained on more epochs.
 
 ![](https://i.imgur.com/AQgtaVM.png)
+
 A comparison between generator and discriminator loss.
 
 ### Changing strategy
